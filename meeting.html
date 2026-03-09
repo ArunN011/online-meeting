@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Stackly Meeting</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="meeting.css">
+
+</head>
+
+<body>
+
+<div class="meeting-container">
+
+<div class="topbar">
+
+<div class="meeting-time">00:22:06</div>
+
+<div class="top-controls">
+
+<a href="error2.html">
+<i class="bi bi-grid"></i>
+</a>
+
+<a href="error2.html">
+<i class="bi bi-people"></i>
+</a>
+
+<a href="error.html">
+<i class="bi bi-chat"></i>
+</a>
+
+<a href="error2.html">
+<i class="bi bi-hand-index"></i>
+</a>
+
+<a href="error2.html">
+<i class="bi bi-three-dots"></i>
+</a>
+
+<a href="join meet.html" class="leave-btn">
+<i class="bi bi-telephone-x"></i> Leave
+</a>
+
+</div>
+
+</div>
+<div class="video-grid">
+
+<div class="video-tile">
+<img src="user1.jpg">
+<span>You</span>
+</div>
+
+<div class="video-tile">
+<img src="user2.avif">
+<span>Steve </span>
+</div>
+
+<div class="video-tile">
+<img src="user3.avif">
+<span>Tanya</span>
+</div>
+
+<div class="video-tile">
+<img src="user4.jpg">
+<span>Charlotte</span>
+</div>
+
+</div>
+<div class="bottom-controls">
+
+<button id="camBtn" onclick="toggleCam()">
+<i class="bi bi-camera-video"></i>
+</button>
+
+<button id="micBtn" onclick="toggleMic()">
+<i class="bi bi-mic"></i>
+</button>
+
+ <button id="handBtn" onclick="raiseHand()">
+<i class="bi bi-hand-index"></i>
+</button>
+<button id="chatBtn" onclick="openChat()">
+<i class="bi bi-chat-dots"></i>
+</button>
+
+<button class="end" onclick="leaveMeeting()">
+<i class="bi bi-telephone-x"></i>
+</button>
+
+</div>
+
+</div>
+<div id="chatBox" class="chat-box">
+
+<div class="chat-header">Chat</div>
+
+<div class="chat-messages">
+<p>Hello <span class="wave">👋</span> </p>
+</div>
+
+<input type="text" placeholder="Type message...">
+
+</div>
+<script src="meet.js"></script>
+
+</body>
+</html>

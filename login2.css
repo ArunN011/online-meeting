@@ -1,0 +1,278 @@
+body{
+font-family:Segoe UI;
+overflow-x: hidden;
+margin-top: 50px;
+}
+.navbar{
+background:#0b1b36;
+padding:14px 0;
+}
+.navbar-nav .nav-link{
+color:white ;
+font-weight:500;
+margin:0 12px;
+}
+.navbar-nav .nav-link:hover{
+color:#6ea8fe;
+}
+.dropdown-menu{
+background:white;
+border-radius:8px;
+padding:8px 0;
+}
+
+.dropdown-item{
+color:#333;
+padding:10px 20px;
+}
+.navbar .nav-link.dropdown-toggle{
+color:white ;
+}
+
+.dropdown-item:hover{
+background:#f0f4ff;
+color:#0078d4;
+}
+
+.nav-link{
+color:white;
+}
+
+.navbar-brand img{
+height:45px;
+filter: brightness(0) invert(1);
+}
+
+.profile-icon{
+color:white;
+font-size:26px;
+}
+
+.navbar-nav{
+gap:30px;
+cursor: pointer;
+}
+.dropdown-menu{
+animation:dropdown 0.3s ease;
+}
+
+@keyframes dropdown{
+from{
+opacity:0;
+transform:translateY(10px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+@media (max-width:576px){
+
+.navbar-nav{
+text-align:center;
+gap: 10px;
+}
+
+.profile{
+display:flex;
+justify-content:center;
+margin-top:15px;
+}
+
+.navbar-nav .nav-item{
+margin:10px 0;
+}
+}
+.login-section{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#f5f7fb;
+}
+
+.login-container{
+background:white;
+padding:40px;
+width:350px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.login-container h2{
+margin-bottom:25px;
+}
+
+.login-container input{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:1px solid #ddd;
+border-radius:8px;
+}
+.password-field{
+position:relative;
+}
+
+.password-field input{
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+.password-field i{
+position:absolute;
+right:10px;
+top:50%;
+transform:translateY(-50%);
+cursor:pointer;
+color:#666;
+font-size:18px;
+}
+
+.password-box{
+position:relative;
+}
+
+.password-box i{
+position:absolute;
+right:12px;
+top:12px;
+cursor:pointer;
+color:#666;
+}
+.forget-link{
+display: block;
+margin-top: 5px;
+font-size: 14px;
+}
+
+.login-btn{
+display:block;
+width:100%;
+height:48px;
+background:#2b7cd3;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+font-weight:600;
+text-align:center;
+line-height:48px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.login-btn:hover{
+background:#1c5da3;
+}
+
+
+.divider{
+margin:20px 0;
+position:relative;
+}
+
+.divider span{
+background:white;
+padding:0 10px;
+color:#888;
+}
+
+.divider:before{
+content:"";
+position:absolute;
+width:100%;
+height:1px;
+background:#ddd;
+top:50%;
+left:0;
+z-index:-1;
+}
+
+.social-login button{
+width:100%;
+padding:10px;
+margin-bottom:10px;
+border:1px solid #ddd;
+border-radius:8px;
+background:white;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+cursor:pointer;
+}
+
+.social-login img{
+width:20px;
+}
+
+.signup-link{
+margin-top:15px;
+font-size:14px;
+}
+
+
+
+.footer-section{
+background:#0b1b36;
+color:white;
+padding:70px 0 30px;
+}
+
+.footer-logo{
+font-size:24px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.footer-text{
+color:#b0c4de;
+font-size:14px;
+}
+
+.footer-col h5{
+margin-bottom:15px;
+}
+
+.footer-col ul{
+list-style:none;
+padding:0;
+}
+
+.footer-col ul li{
+margin-bottom:10px;
+}
+
+.footer-col ul li a{
+color:#b0c4de;
+text-decoration:none;
+font-size:14px;
+}
+
+.footer-col ul li a:hover{
+color:white;
+}
+
+.social-icons a{
+color:white;
+font-size:20px;
+margin-right:12px;
+}
+
+.social-icons a:hover{
+color:#4da3ff;
+}
+
+.copyright{
+margin-top:20px;
+font-size:14px;
+color:#b0c4de;
+}
+.footer-logo img{
+width:140px;
+height:auto;
+}
